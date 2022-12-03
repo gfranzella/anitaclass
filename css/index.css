@@ -1,0 +1,6 @@
+* {box-sizing:border-box;} 
+
+body {font-family: 'Montserrat', sans-serif;
+    background-color: rgb(254,247,224);  /* más tarde LO REPLANTEO */
+    margin:0;padding:0;                   /* "por defecto del navegador" anulados */
+}
