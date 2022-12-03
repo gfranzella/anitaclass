@@ -8,8 +8,34 @@
 
     <!-- enlace al estilo -->
     <link rel="stylesheet" href="./css/index.css" />
+    <!-- enlace a font awesome 4.7 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- tengo una fuente descargada, pero otra enlazada de Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    Hello World
+    <div id="wrapper">
+      <nav>
+        <div class="topnav" id="myTopnav">
+          <a href="#">Inicio</a>
+          <a href="#galeria">Conócenos</a>
+          <a href="#contacto">Contacto</a>
+          <!-- el último botón es el icono del menu hamburguesa -->
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </nav>
+
+      <section id="hero">Main Section here</section>
+    </div>
+
+    <script src="./js/funciones.js"></script>
   </body>
 </html>
