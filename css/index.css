@@ -49,6 +49,22 @@ section {padding:5% 0;} /* en todas las secciones debe correr el aire */
     display: none;
 } 
 
+
+
+.wrapper {
+    display: grid;
+    grid-auto-rows: 100px;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+
+.wrapper div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+
 /***** MEDIA QUERIES DE LA BARRA DE NAVEGACIÓN SOLO *************************/
 
    /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
